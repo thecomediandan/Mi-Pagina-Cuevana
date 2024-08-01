@@ -1,0 +1,1 @@
+Son todos los archivos multimedia, tipografias, imagenes, videos, etc.

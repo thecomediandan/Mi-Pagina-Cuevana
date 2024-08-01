@@ -28,3 +28,22 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+*********************************************************************
+
+La estructura de carpetas para un proyecto React sera de la siguiente manera:
+
+❯ adapters
+❯ assets
+❯ components
+❯ contexts
+❯ hooks
+❯ interceptors
+❯ models
+❯ pages
+❯ redux
+❯ services
+❯ styled-components
+❯ utilities
+
+Es posible si asi se lo requiere el tener esta misma estructura en la subcarpetas de pages.
