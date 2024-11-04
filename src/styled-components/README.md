@@ -1,7 +1,12 @@
-Son archivos de styled-components por modulos semi generales
+# - Instala la libreria [styled componentns](https://styled-components.com/)
+- Son archivos de styled-components por modulos semi generales
+```
+npm install styled-components
+```
 
-Ejemplos:
+##  Ejemplos:
 
+```js
 export const LayoutContainer = styled.div`
     display: flex;
     flex-direction: column;
@@ -23,3 +28,4 @@ export const Heading = styled.div`
     padding: 20px 0 20px 20px;
     max-height: 85px;
 `;
+```

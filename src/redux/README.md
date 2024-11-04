@@ -2,6 +2,7 @@ Donde se almacena el store de Redux
 
 Ejemplo: 
 
+```ts
 import { User } from '@/models';
 import { configureStore } from '@redixjs/toolkit';
 import { userSlice } from './states/user'
@@ -15,3 +16,4 @@ export default configureStore<AppStore>({
         user: userSlice.reducer
     }
 });
+```

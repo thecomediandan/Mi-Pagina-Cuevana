@@ -1,5 +1,6 @@
 Vamos a tener todos los servicios llamadas de API
 
+```ts
 import { User } from '@/models';
 import axios from 'axios';
 
@@ -16,3 +17,4 @@ const loginUrl = apiUrl + 'login';
  export const login = (email: string, password: string): User => {
     return axios.post(loginUrl, {email, password});
  }
+ ```
